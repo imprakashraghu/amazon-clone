@@ -1,0 +1,12 @@
+.search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;    
+    background-color: white;
+}
+
+.search__result {
+    padding: 20px;
+}

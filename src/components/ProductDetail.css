@@ -1,0 +1,142 @@
+.productDetail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;    
+}
+
+.productDetail__adImage {
+    max-height: 100px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.productDetail__container {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 10px;   
+}
+
+.productDetail__right {
+    width: 400px;
+    margin-top: 20px;        
+    display: flex;
+    flex-direction: column;    
+}
+
+.productDetail__left {    
+    padding: 20px;
+    display: flex;        
+    margin-left: 25px;
+    align-items: flex-start;
+    justify-content: center;       
+}
+
+.productDetail__image {
+    max-height: 380px;  
+    max-width: 400px;  
+    object-fit: contain;
+}
+
+.productDetail__leftTitle {
+    font-size: large;    
+    line-height: 2;
+}
+
+.productDetail__leftRating {
+    padding-top: 10px;    
+}
+
+.productDetail__leftPrice {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+.productDetail__leftDescription {
+    padding: 10px;
+    font-size: medium;    
+    color: #626262;
+}
+
+.productDetail__delivery {
+    padding-top: 8px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.productDetail__priceDetail {    
+    margin-left: 10px;    
+    padding: 20px;
+}
+
+.productDetail__reviews {
+    padding-left: 20px;
+    margin-left: 20px;    
+    margin-bottom: 30px;
+}
+
+.productDetail__ad2 {
+    margin-top: 20px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.productDetail__reviewForm {
+    padding: 10px;   
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+} 
+
+.productDetail__reviewContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.productDetail__reviewsTitle {
+    padding: 5px;    
+}
+
+.productDetail__reviewForm > form {    
+    display: flex;    
+    flex-direction: column;     
+}
+
+.productDetail__reviewForm > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-top: 2px;
+    width: 98%;
+}
+
+.productDetail__reviewForm > form > button { 
+    width: 100%;
+    height: 30px;    
+    border: 1px solid;
+    margin-top: 10px;
+    border-radius: 2px;
+    border-color: darkgray;
+    color: #111;
+}
+
+.productDetail__reviewInfo {
+    flex: 0.9;
+}
